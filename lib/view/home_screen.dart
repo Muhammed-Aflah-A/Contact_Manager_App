@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           controller: form.nameController,
                           decoration: InputDecoration(
                             labelText: "Name",
-                            suffixIcon: Icon(Icons.person, color: Colors.blue),
+                            prefixIcon: Icon(Icons.person, color: Colors.blue),
                             border: OutlineInputBorder(),
                           ),
                           validator: (value) {
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           controller: form.numberController,
                           decoration: InputDecoration(
                             labelText: "Phone Number",
-                            suffixIcon: Icon(Icons.phone, color: Colors.green),
+                            prefixIcon: Icon(Icons.phone, color: Colors.green),
                             border: OutlineInputBorder(),
                           ),
                           keyboardType: TextInputType.phone,
@@ -122,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           controller: form.gmailController,
                           decoration: InputDecoration(
                             labelText: "Gmail",
-                            suffixIcon: Icon(Icons.mail, color: Colors.red),
+                            prefixIcon: Icon(Icons.mail, color: Colors.red),
                             border: OutlineInputBorder(),
                           ),
                           keyboardType: TextInputType.emailAddress,

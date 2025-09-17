@@ -135,7 +135,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             controller: nameEditController,
                                             decoration: InputDecoration(
                                               labelText: "Name",
-                                              suffixIcon: Icon(
+                                              prefixIcon: Icon(
                                                 Icons.person,
                                                 color: Colors.blue,
                                               ),
@@ -171,7 +171,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             controller: phoneEditController,
                                             decoration: InputDecoration(
                                               labelText: "Phone Number",
-                                              suffixIcon: Icon(
+                                              prefixIcon: Icon(
                                                 Icons.phone,
                                                 color: Colors.green,
                                               ),
@@ -210,7 +210,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             controller: gmailEditController,
                                             decoration: InputDecoration(
                                               labelText: "Gmail",
-                                              suffixIcon: Icon(
+                                              prefixIcon: Icon(
                                                 Icons.mail,
                                                 color: Colors.red,
                                               ),
